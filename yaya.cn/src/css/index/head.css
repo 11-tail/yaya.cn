@@ -1,0 +1,315 @@
+/* 头部的样式 */
+.top {
+    height: 30px;
+    background: #e3e4e5;
+    border-bottom: solid 1px #e3e4e5;
+    position: relative;
+}
+
+.top_location {
+    line-height: 30px;
+    color: #6b6b6b;
+    overflow: hidden;
+}
+
+.top_location i {
+    width: 14px;
+    height: 30px;
+    background: url(../img/weizhi.png) no-repeat center;
+    float: left;
+    margin-right: 6px;
+}
+
+.top_login {
+    line-height: 30px;
+    color: #6b6b6b;
+    overflow: hidden;
+    margin-left: 15px;
+}
+
+.top_login a {
+    margin-left: 5px;
+    color: #6b6b6b;
+    position: relative;
+}
+
+.top_login a:hover {
+    color: #4FB99F;
+}
+
+.top_menu {
+    height: 30px;
+    overflow: hidden;
+}
+
+.top_menu a {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    color: #6b6b6b;
+    position: relative;
+    border-left: solid 1px transparent;
+    border-right: solid 1px transparent;
+}
+
+.top_menu a:hover {
+    text-decoration: none;
+    color: #4FB99F;
+
+}
+
+.top_menu a i {
+    transition: transform .3s;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #bbb;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 3px;
+}
+
+
+.top_menu a .vip {
+    display: inline-block;
+    margin-right: 3px;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    background: url(../img/icon.png) no-repeat -54px -18px;
+    bottom: -4px;
+}
+
+.jubao {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: text-top;
+    margin-right: 3px;
+    background: url(../img/jubao.png) no-repeat center top;
+    background-size: 15px;
+}
+
+.top_menu .phone {
+    font-size: 14px;
+    color: #4FB99F;
+}
+
+.top_menu .phone:hover {
+    background: #fff;
+}
+
+.dianhua {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: text-top;
+    margin-right: 3px;
+    background: url(../img/icon.png) no-repeat -72px -18px;
+}
+
+.top_user {
+    position: absolute;
+    background: #fff;
+    top: 29px;
+    width: 90px;
+    padding: 0 10px;
+    border: solid 1px #ddd;
+    display: none;
+    z-index: 96;
+    left: 700px;
+}
+
+.top_user a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: #6b6b6b;
+}
+
+.top_user a:hover {
+    color: #4FB99F;
+
+}
+
+/* 二级导航！！！！！！！！---------------------- */
+.top_item {
+    position: absolute;
+    background: #fff;
+    top: 29px;
+    width: 1198px;
+    border: solid 1px #ddd;
+    display: none;
+}
+
+.top_item ul {
+    height: 200px;
+    overflow: hidden;
+}
+
+.top_item ul li {
+    padding: 20px 0;
+    height: 200px;
+    width: 20%;
+    float: left;
+    overflow: hidden;
+}
+
+.top_item ul li h3 {
+    font-weight: normal;
+    margin: 0 20px 10px;
+    font-size: 16px;
+}
+
+.top_item ul li .nav_list {
+    padding: 0 20px;
+}
+
+.nav_list a:hover {
+    color: #4FB99F;
+}
+
+.nav_list a {
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    color: #6b6b6b;
+    width: 99px;
+    position: relative;
+}
+
+.nav_list a i {
+    display: inline-block;
+    position: absolute;
+    background: url(../img/jiaobiao.png)no-repeat;
+    width: 11px;
+    height: 11px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 1px;
+}
+
+.hot {
+    background-position: left top;
+}
+
+.nav_list a .new1 {
+    background-position: left bottom;
+}
+
+.orange {
+    color: #f70;
+}
+
+.purple {
+    color: #a776d9;
+}
+
+.light-blue {
+    color: #7597dc;
+}
+
+.light-red {
+    color: #ff5050;
+}
+
+.top_item ul li:nth-child(2) {
+    background: #f9f9f9;
+}
+
+.top_item ul li:nth-child(4) {
+    background: #f9f9f9;
+}
+
+.city_wrap {
+    width: 500px;
+    height: 290px;
+    position: absolute;
+    /* display: none; */
+    background: #fff;
+    border: solid 1px #dfdfdf;
+    background: #fff;
+    left: 159.6px;
+    top: 30px;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: block;
+    cursor: pointer;
+    background: url(../img/icon.png) no-repeat 0 -36px;
+    width: 16px;
+    height: 16px;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+}
+
+.close:hover {
+    transform: rotate(90deg);
+    background-position: -16px -36px;
+}
+
+.city_wrap .city-hot {
+    padding: 0 10px;
+    margin-top: 15px;
+}
+.city_wrap .city-hot a {
+    margin-right: 10px;
+}
+.city_wrap .city-tab {
+    margin: 10px;
+    border-bottom: solid 2px #4FB99F;
+    height: 30px;
+    line-height: 30px;
+}
+.city_wrap .city-tab a {
+    display: inline-block;
+    padding: 0 20px;
+    height: 28px;
+    border: solid 1px #dfdfdf;
+    border-bottom: 0;
+    margin-right: 5px;
+    font-size: 12px;
+    font-family: 'Microsoft YaHei';
+    text-decoration: none;
+}
+/* 点击是给选择框添加这个class名 */
+.cur{
+    color: #4FB99F;
+    border: solid 2px #4FB99F;
+    border-bottom: 0;
+    background: #fff;
+    font-weight: bold;
+    height: 30px;
+}
+/* --------------------------------- */
+.city-box{
+    margin: 10px;
+}
+.city-box ul li{
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 0 5px 0;
+    width: 80px;
+    overflow: hidden;
+}
+.city-box ul li a{
+    display: inline-block;
+    padding: 0 4px;
+    height: 25px;
+    line-height: 25px;
+}
+.city-box ul li a:hover{
+    background: #f3f3f3;
+    color: #4FB99F;
+    text-decoration: none;
+}
